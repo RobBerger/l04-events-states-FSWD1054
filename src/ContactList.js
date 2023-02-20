@@ -11,7 +11,7 @@ class ContactList extends React.Component {
   }
 
   handleGenerateContact() {
-    alert('Creating a new contact')
+    alert(`Hello ${faker.name.firstName()} ${faker.name.lastName()}`)
   }
 
   headings() {
